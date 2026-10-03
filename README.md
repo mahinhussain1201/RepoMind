@@ -9,6 +9,8 @@ pinned: false
 
 <div align="center">
 
+<img src="frontend/public/favicon.svg" width="64" height="64" alt="RepoMind Logo" />
+
 # RepoMind
 
 **AI-powered code intelligence. Understand any repository instantly.**

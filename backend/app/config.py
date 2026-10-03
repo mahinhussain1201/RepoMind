@@ -33,6 +33,6 @@ class Config:
             return fallback
             
     EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
-    LLM_MODEL_NAME = "llama-3.1-8b-instant"
+    LLM_MODEL_NAME = os.getenv("LLM_MODEL_NAME", "openai/gpt-oss-120b")
 
 settings = Config()

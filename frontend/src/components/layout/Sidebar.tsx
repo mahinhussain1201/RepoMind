@@ -79,9 +79,12 @@ const Sidebar: React.FC<SidebarProps> = ({
           gap: 'var(--space-3)',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <span className="gradient-text" style={{ fontSize: 'var(--text-lg)', fontWeight: 800, letterSpacing: '-0.03em' }}>
-              RepoMind
-            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
+              <img src="/favicon.svg" alt="RepoMind Logo" style={{ width: '24px', height: '24px' }} />
+              <span className="gradient-text" style={{ fontSize: 'var(--text-lg)', fontWeight: 800, letterSpacing: '-0.03em' }}>
+                RepoMind
+              </span>
+            </div>
             {isMobile && (
               <button
                 onClick={onClose}
